@@ -1,0 +1,667 @@
+.login-register form,
+.financial-assistance-wrapper .financial-assistance-form form,
+.login-register .wrapper-other-login,
+.financial-assistance-wrapper .financial-assistance-form .wrapper-other-login {
+    padding: 0px;
+}
+
+.login-register .section-title.lines,
+.financial-assistance-wrapper .financial-assistance-form .section-title.lines {
+    margin: 0px;
+}
+
+.login-register #login-anchor,
+.financial-assistance-wrapper .financial-assistance-form .form-type,
+.login-register #login-anchor .toggle-form,
+.financial-assistance-wrapper .financial-assistance-form .toggle-form {
+    margin-top: 150px;
+}
+
+.login-register .form-wrapper,
+.financial-assistance-wrapper .financial-assistance-form .form-wrapper {
+    /* box-shadow: 0px 2px 6.86px 0.14px rgba(0, 0, 0, 0.27); */
+    border-radius: 5px;
+    padding-top: 0px;
+}
+
+.login-register #login-anchor #login,
+.login-register #register-anchor #register {
+    border-bottom: none;
+}
+
+.login-register #login-anchor #login .section-title h2,
+.login-register #register-anchor #register .section-title h2,
+.login-register #institution_login-anchor .section-title h2,
+.login-register #password-reset-anchor #password-reset .section-title h2 {
+    text-align: left;
+    /* background: url("/static/firki_theme_new/firki/images/img-pattern-yellow.2cb143703c29.2cb143703c29.png") repeat; */
+    line-height: normal;
+    padding-top: 21px;
+    color: #01b4ca;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    padding-top: 17px;
+    padding-bottom: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.login-register .section-title.lines .text,
+.financial-assistance-wrapper .financial-assistance-form .section-title.lines .text {
+    font-size: 32px;
+    background: transparent;
+    font-weight: bold;
+}
+
+.login-register .section-title.lines:after,
+.financial-assistance-wrapper .financial-assistance-form .section-title.lines:after {
+    display: none;
+}
+
+.login-register .email-email {
+    margin-top: 50px;
+}
+
+.login-register .form-field,
+.financial-assistance-wrapper .financial-assistance-form .form-field {
+    margin-left: 24%;
+    /* margin-bottom: 15px; */
+    width: 52%;
+}
+
+.login-register .form-field label,
+.financial-assistance-wrapper .financial-assistance-form .form-field label {
+    font-family: 'Lato-Black';
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 0px;
+    /* text-transform: uppercase; */
+    margin-top: 0px;
+    display: none;
+    position: relative;
+    top: -39px;
+    left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .login-register .form-field input {
+        display: block;
+        width: auto;
+        /* margin: 0px -87px -5px -82px; */
+        padding: 2px 11px;
+    }
+    .s-header__logo {
+        display: contents;
+    }
+ 
+    .login-register .form-field {
+        margin: 15px;
+        margin-bottom: 15px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .action-primary,
+    .form-field label {
+        display: block;
+        width: 250px !important;
+        margin-left: 5px !important;
+    }
+    span#set_mob {
+        margin: 0 0 0 -116px;
+    }
+    .login-register #register-anchor .nav-btn {
+        width: 70%;
+    }
+    /* .form-field label{
+        margin-left:5px !important;  
+    } */
+    /* .login-register #register-anchor .nav-btn{
+        width: 55%;
+        margin-top: -13px;
+    } */
+}
+
+.login-register .form-field input,
+.financial-assistance-wrapper .financial-assistance-form .form-field input {
+    font-family: 'Lato-Regular';
+    color: #575757;
+    font-size: 18px;
+    border-radius: 23px;
+    border: 1px solid #ccc;
+    height: 45px;
+    /* width: 430px; */
+    margin-top: 4px;
+}
+
+.login-register .form-field input,
+.financial-assistance-wrapper .financial-assistance-form .form-field input:focus {
+    box-shadow: none;
+    border: 1px solid #01b4ca;
+    outline: none;
+}
+
+.login-register .form-field.select-gender,
+.login-register .form-field.select-year_of_birth {
+    width: 34%;
+}
+
+.login-register .form-field textarea,
+.login-register .form-field textarea-goals:focus {
+    box-shadow: none;
+    border: 1px solid #01b4ca;
+    outline: none;
+}
+
+.login-register .form-field.checkbox-terms_of_service input {
+    height: 25px;
+}
+
+.login-register .form-field.checkbox-terms_of_service label {
+    text-transform: capitalize;
+}
+
+.login-register .form-field.checkbox-terms_of_service label a {
+    color: #01b4ca;
+    font-weight: bold;
+}
+
+.login-register .note,
+.financial-assistance-wrapper .financial-assistance-form .note,
+.login-register .form-field .tip,
+.financial-assistance-wrapper .financial-assistance-form .form-field .tip {
+    display: none;
+}
+
+.login-register #login-anchor .form-field .field-link,
+.financial-assistance-wrapper .financial-assistance-form .form-field .field-link {
+    color: #fff;
+    font-family: 'Lato-Black';
+    font-size: 13px;
+    font-weight: normal !important;
+    float: right;
+    text-decoration: underline !important;
+    /* margin-top: -73px; */
+}
+
+.form-field {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    /* height: 0px; */
+}
+
+.login-register .action-primary {
+    /* font-family: "Lato-Black"; */
+    font-weight: normal!important;
+    font-size: 14px;
+    background-color: #303030;
+    color: #ffffff;
+    border-radius: 23px;
+    border-bottom: 0px solid #303030;
+    box-shadow: none;
+    height: 41px;
+    width: 15%;
+    margin: auto;
+    display: block;
+    text-shadow: none;
+    margin-top: -33px;
+}
+
+.login-register .action-primary:hover,
+.login-register .action-primary:focus {
+    /* background: #01d9f4; */
+    box-shadow: none;
+    /* border-bottom: 3px solid #018696; */
+    outline: none;
+}
+
+.financial-assistance-wrapper .financial-assistance-form .form-type,
+.login-register #login-anchor .toggle-form,
+.financial-assistance-wrapper .financial-assistance-form .toggle-form {
+    margin-top: 0px;
+}
+
+.login-register .toggle-form {
+    height: 60px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 700px) {
+    .login-register .toggle-form .section-title {
+        float: left;
+        margin: -23px 0px -8px 26px;
+    }
+
+    .login-register #register-form .toggle-form .section-title{
+        float: none;
+        margin: 20px 0 10px;
+    }
+
+
+    .login-register .nav-btn {
+        width: 75%;
+    }
+}
+
+.login-register .toggle-form .section-title,
+.financial-assistance-wrapper .financial-assistance-form .toggle-form .section-title {
+    display: inline-block;
+}
+
+.login-register .toggle-form .section-title h2,
+.financial-assistance-wrapper .financial-assistance-form .toggle-form .section-title h2 {
+    font-size: 15px;
+    color: #58595b;
+    font-family: 'Lato-Regular';
+}
+
+.login-register .nav-btn {
+    font-size: 15px;
+    width: 54%;
+    float: right;
+    border: none;
+    text-align: left;
+    padding: 0;
+    color: #01b4ca;
+    margin: -84px 0 0 0;
+}
+
+.login-register .mx-nav-btn {
+    float: none;
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    text-align: center;
+}
+
+.login-register #register-anchor .nav-btn.form-toggle {
+    width: auto;
+    float: none;
+    margin-top: 13px !important;
+    padding-left: 5px;
+}
+
+.login-register .nav-btn:hover,
+.login-register .nav-btn:focus {
+    color: #01b4ca;
+    background: transparent;
+    box-shadow: none;
+}
+
+.login-register #login-anchor .form-field #login-remember,
+.financial-assistance-wrapper .financial-assistance-form .form-field #login-remember {
+    line-height: 0;
+    height: auto;
+    display: inline;
+    width: auto;
+    margin-right: 5px;
+    position: absolute;
+    top: -36px;
+}
+
+.login-register #login-anchor #login .login-providers .section-title h2,
+.login-register #register-anchor #register .login-providers .section-title h2 {
+    background: none;
+    text-align: center;
+}
+
+.login-register #login-anchor #login .login-providers .section-title.lines .text,
+.login-register #register-anchor #register .login-providers .section-title.lines .text {
+    font-size: 15px;
+}
+
+.login-register #login-anchor .form-wrapper .login-providers,
+.login-register #register-anchor .form-wrapper .login-providers,
+.financial-assistance-wrapper .financial-assistance-form .form-wrapper .login-providers {
+    margin-left: 95px;
+    margin-right: 95px;
+    text-align: left;
+}
+
+.login-register #login-anchor .form-wrapper .login-providers{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-register #login-anchor .login-provider.button,
+.login-register #register-anchor .login-provider.button {
+    width: auto;
+    margin-left: 3%;
+    border-radius: 40px;
+    margin: auto;
+    display: block;
+    padding: 2px 15px 2px 5px;
+    text-align: center;
+    color: #000;
+    height: auto;
+}
+
+.login-register #login-anchor #login .login-providers .section-title h2, .login-register #login-anchor #login .login-providers .section-title h2 span {
+    padding: 0;
+}
+
+.login-register #register-anchor #register .login-providers .section-title h2{
+    margin-top: auto;
+}
+
+.login-register #login-anchor .login-provider.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+}
+
+.login-register #password-reset {
+    margin-top: 100px;
+}
+
+.login-register #password-reset .action-label {
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 13px;
+    font-family: 'Lato-Black';
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal !important;
+    margin-bottom: -21px;
+}
+
+.login-register #institution_login-anchor .section-title.lines .text {
+    font-size: 25px;
+}
+
+.login-register #institution_login-anchor .instructions {
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 13px;
+    font-family: 'Lato-Black';
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal !important;
+    margin-bottom: -21px;
+}
+
+.login-register .button-secondary-login {
+    font-family: 'Lato-Black';
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal !important;
+    color: #01b4ca;
+}
+
+.login-register .button-secondary-login:hover,
+.login-register .button-secondary-login:focus {
+    background: #01b4ca;
+    color: #fff;
+    border-color: #01b4ca;
+    border-bottom: 3px solid #018696;
+    box-shadow: none;
+    outline: none;
+}
+
+.login-register #institution_login-anchor .institution-list {
+    margin-left: 95px;
+    margin-right: 95px;
+    padding-top: 15px;
+}
+
+.login-register #institution_login-anchor .institution-login-link {
+    font-family: 'Lato-Black';
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal !important;
+    color: #01b4ca;
+}
+
+.login-register #institution_login-anchor .nav-btn {
+    font-family: "Lato-Black";
+    font-weight: normal!important;
+    font-size: 18px;
+    background-color: #01b4ca;
+    color: #fff;
+    border-radius: 5px;
+    border-bottom: 3px solid #018696;
+    box-shadow: none;
+    height: 45px;
+    width: 430px;
+    text-shadow: none;
+    margin-top: 0px;
+    text-align: center;
+    float: none;
+}
+
+.login-register .alert_box {
+    width: 430px;
+    outline: none;
+    margin-left: 95px;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+.login-register .back_login {
+    display: block;
+    color: #fff;
+    font-family: 'Lato-Black';
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal !important;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.login-register .back_login:hover,
+.login-register .back_login:focus {
+    text-decoration: none;
+    color: #01d9f4;
+}
+
+#login-form .toggle-form {
+    margin-top: 0px !important;
+}
+
+.login-register #register .email-email{
+    margin-top: 15px;
+}
+
+.login-register #register .form-field{
+    margin-top: 10px;
+}
+
+.login-register #register-anchor #register .section-title h2{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.login-register #register-anchor #register .section-title h2 span{
+    text-decoration: underline;
+    padding:0;
+}
+
+.login-register #register .form-field input{
+   height: auto;
+   line-height: 43px;
+}
+
+.login-register #register .form-field textarea{
+    border-radius: 23px;
+    margin-top: 3px;
+    height: 100px;
+}
+
+.login-register #register-form .toggle-form .section-title h2{
+    margin: auto;
+    display: inline-block;
+}
+
+.login-register #register .action-primary{
+    margin-top: 15px !important;
+}
+
+.login-register .login-provider.button-oa2-google-oauth2 .icon{
+    background: transparent;
+    position: static;
+    display: inline-block;
+    width: auto;
+}
+
+.login-register #login .form-field.checkbox-remember {
+    height: 0;
+}
+
+.login-register .login-provider.button-oa2-google-oauth2 .icon img {
+    height: 30px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.login-register #login-form .toggle-form{
+    height: auto;
+    padding-bottom: 0;
+}
+
+.login-register .login-form#login{
+    margin-bottom: 0;
+}
+
+.login-register #login-form .toggle-form .section-title {
+    margin: auto;
+    height: 0;
+}
+
+#password-reset .mx-section>h2 {
+    text-align: center !important;
+}
+
+.s-header__buttons ul li a.theme-btn.active.sign_btn {
+    background: #20b3c9;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px !important;
+    padding: 11px 15px;
+    height: auto;
+}
+
+/* Utkarsh Saxena started. */
+@media screen and (max-width: 767px){
+    .s-header__navbar-row nav{ 
+        height: 0;
+    }
+
+    #menuToggle {
+        top: 15px !important;
+    }
+
+    .s-header__navbar-row{
+        position: relative;
+    }
+
+    .logo-section {
+        position: absolute;
+        right: 25px;
+        top: 10px;
+    }
+
+    .login-register .mx-nav-btn{
+        margin-top: 15px !important;
+        line-height: 40px;
+    }
+
+    .login-register .alert_box{
+        max-width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 480px){
+    .login_pg.login-gif-icon img {
+        max-width: 100%;
+    }
+
+    .login-register #register .form-field input{
+        width: 100%;
+    }
+
+    .login-register #register .form-field input#register-terms_of_service {
+        width: auto;
+    }
+
+    .login-register #register .form-field{
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .login-register #login .form-field input {
+        display: block;
+        margin: auto;
+    }
+
+    .login-register .action-primary{
+        margin-left: auto !important;
+        width: auto !important;
+        padding: 10px 18px;
+    }
+
+    .login-register .form-field .field-link{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .login-register #login-anchor .form-field #login-remember{
+        top: -32px;
+    }
+
+    .main_idstyl{
+        background: linear-gradient(0deg, #17b3c8 70.3%, #26becf 40%);
+        min-height: calc(100vh - 50px)
+    }
+
+    .login-register #login-anchor .login-provider.button{
+        width: auto;
+        padding: 0 15px 3px 4px;
+    }
+
+    .login-register #login-anchor .form-field #login-remember,
+.financial-assistance-wrapper .financial-assistance-form .form-field #login-remember {
+    left: 6px;
+}
+
+    .s-header__logo a.theme-btn {
+        font-size: 1rem !important;
+    }
+    .s-header__navbar-row {
+        width: 100% !important;
+    }
+    .logo-section {
+        top: 10px !important;
+        right: 15px !important;.login-register .back_login
+    }
+    .s-header__logo a.theme-btn {
+        margin-right: 5px !important;
+    }
+
+    .login-register #login-anchor, .login-register #registration-anchor{
+        max-width: 100%;
+    }
+
+    .form-field label{
+        width: auto !important;
+    }
+
+    .login-register #password-reset .section-title h2 span{
+        font-size: 20px;
+    }
+
+    .login-register #password-reset .action-label{
+        width: 100%;
+        margin: auto;
+    }
+
+    .login-register #password-reset input{
+        margin: auto;
+        display: block;
+    }
+}
+/* utkarsh saxena ended. */

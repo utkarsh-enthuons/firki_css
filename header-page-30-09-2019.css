@@ -1,0 +1,108 @@
+.navbar-fixed-top a, .s-header__logo a.theme-btn{
+    font-size: 16px !important;
+    letter-spacing: 0 !important;
+    line-height: 38px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.s-header__buttons ul li a.theme-btn.active label{
+    font-weight: normal;
+    font-size: .85rem !important;
+    letter-spacing: .5px;
+    font-family:'Source Sans Pro', sans-serif;
+    line-height: 1;
+    margin: auto;
+}
+
+.s-header__buttons ul li.dropdown-new a.theme-btn.active {
+    padding: 0 10px;
+    display: inline-block;
+    white-space: normal;
+    width: auto;
+    height: auto;
+    line-height: 38px;
+}
+
+.s-header__buttons ul {
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 8px;
+}
+
+.tfi .dropdown-new {
+    padding: 0;
+}
+
+header.navbar-fixed-top {
+    background: rgb(243, 241, 226);
+}
+
+.tfi .dropdown-content a{
+    line-height: normal;
+}
+
+.s-header__shrink .s-header__logo-img-default{
+    opacity: 1;
+}
+
+.s-header__shrink .s-header__logo-img-shrink{
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 767px){
+    header.navbar-fixed-top {
+        background: #30302f;
+    }
+
+
+    #menuToggle{
+        top: 8px  !important;
+    }
+
+    .resours {
+        display: none;
+    }
+
+    .s-header__logo a.theme-btn{
+        margin-right: .85rem !important;
+    }
+
+    .navbar-fixed-top .user-right-section a.user-edit-btn {
+        padding: 0 15px;
+    }
+
+    .navbar-fixed-top .user-details a{
+        line-height: normal;
+    }
+
+    #menu li{
+        padding: 0;
+        max-height: 38px;
+    }
+
+    .navbar-fixed-top #menu li a{
+        line-height: 38px;
+    }
+
+    .navbar-fixed-top a.logout-btn {
+        padding: 5px 25px;
+    }
+
+    .playstore_img{
+        line-height: 56px;
+    }
+
+    .s-header__logo{
+        width: 84%;
+    }
+
+    .navbar-fixed-top a.login-btn.theme-btn {
+        padding: 10px 20px;
+    }
+
+    .s-header__logo a.theme-btn:hover, .s-header__logo a.theme-btn:focus {
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+}

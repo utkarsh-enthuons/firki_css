@@ -1,0 +1,301 @@
+.content-wrapper.tfi-content-wrapper {
+    padding-top: 7%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.tbl-btn {
+    /* margin-right: 5px; */
+    /* padding: 4px 11px 4px 13px; */
+    border-radius: 8px;
+}
+
+td#css_sty {
+    width: 11%;
+    /* margin: 18px 0 0 0; */
+}
+
+
+td#css_sty a{
+    font-size: 12px;
+color: #bfbfbf ;
+font-weight: 400;
+padding: 10px 0;
+}
+
+td#css_sty a i{
+    color: #bfbfbf
+}
+
+i.styl {
+    margin: 5px;
+}
+
+.tbl-btn:hover {
+    background-color: #e1e1e1;
+    /* border: 1px solid white; */
+    color: #000000 !important;
+}
+
+
+/* .ti-download:hover {
+    background-color: #f3f3f3;
+} */
+
+.tbl-btn:hover i {
+    color: #7b7b7b;
+}
+
+.resource-info img {
+    width: 100%;
+    max-height: 120px;
+    margin-top: 10px;
+    border: 1px solid cadetblue;
+    padding: 5px;
+}
+
+.like_sty {
+    padding-left: 33px;
+}
+
+.share_sty {
+    padding-left: 15px;
+}
+
+.resource-info .buttons {
+    padding: 15px;
+    text-align: center;
+}
+
+.resource-info .buttons a:first-child {
+    margin-right: 10px;
+}
+
+.resource-info .buttons a i {
+    margin-right: 5px;
+}
+
+.resource-info .cont {
+    margin-top: 12px;
+}
+
+.resource-info .cont span {
+    font-size: 12px;
+}
+
+/* .full-width {
+    width: 82% !important;
+} */
+
+@media screen and (max-width: 767px) {
+    /* header.navbar-fixed-top,
+    div.window-wrap,
+    footer.g-bg-color--dark,
+    div.footer-logo {
+        display: none;
+    } */
+    div.footer-logo {
+        display: none;
+    }
+}
+
+tr.resource_info_view {
+    height: 32px;
+}
+
+
+/* tr.resource_info_view td {
+    padding: 5px !important;
+} */
+
+
+/* .left-nav section ul {
+    max-height: 150px;
+    overflow: scroll;
+} */
+
+span.multiselect-native-select {
+    position: relative
+}
+
+span.multiselect-native-select select {
+    border: 0!important;
+    clip: rect(0 0 0 0)!important;
+    height: 1px!important;
+    margin: -1px -1px -1px -3px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    width: 1px!important;
+    left: 50%;
+    top: 30px
+}
+
+.multiselect-container {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.multiselect-container .input-group {
+    margin: 5px
+}
+
+.multiselect-container>li {
+    padding: 0
+}
+
+.multiselect-container>li>a.multiselect-all label {
+    font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group label {
+    margin: 0;
+    padding: 3px 20px 3px 20px;
+    height: 100%;
+    font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group-clickable label {
+    cursor: pointer
+}
+
+.multiselect-container>li>a {
+    padding: 0
+}
+
+.multiselect-container>li>a>label {
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 3px 0 3px 30px
+}
+
+.multiselect-container>li>a>label.radio,
+.multiselect-container>li>a>label.checkbox {
+    margin: 0
+}
+
+.multiselect-container>li>a>label>input[type=checkbox] {
+    margin-bottom: 5px
+}
+
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.form-inline .multiselect-container label.checkbox,
+.form-inline .multiselect-container label.radio {
+    padding: 3px 20px 3px 40px
+}
+
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],
+.form-inline .multiselect-container li a label.radio input[type=radio] {
+    margin-left: -20px;
+    margin-right: 0
+}
+
+span.multiselect-native-select {
+    position: relative
+}
+
+span.multiselect-native-select select {
+    border: 0!important;
+    clip: rect(0 0 0 0)!important;
+    height: 1px!important;
+    margin: -1px -1px -1px -3px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    width: 1px!important;
+    left: 50%;
+    top: 30px
+}
+
+.multiselect-container {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.multiselect-container .input-group {
+    margin: 5px
+}
+
+.multiselect-container>li {
+    padding: 0
+}
+
+.multiselect-container>li>a.multiselect-all label {
+    font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group label {
+    margin: 0;
+    padding: 3px 20px 3px 20px;
+    height: 100%;
+    font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group-clickable label {
+    cursor: pointer
+}
+
+.multiselect-container>li>a {
+    padding: 0
+}
+
+.multiselect-container>li>a>label {
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 3px 0 3px 30px
+}
+
+.multiselect-container>li>a>label.radio,
+.multiselect-container>li>a>label.checkbox {
+    margin: 0
+}
+
+.multiselect-container>li>a>label>input[type=checkbox] {
+    margin-bottom: 5px
+}
+
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+.form-inline .multiselect-container label.checkbox,
+.form-inline .multiselect-container label.radio {
+    padding: 3px 20px 3px 40px
+}
+
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],
+.form-inline .multiselect-container li a label.radio input[type=radio] {
+    margin-left: -20px;
+    margin-right: 0
+}
+
+/* Utkarsh saxena started. */
+@media screen and (max-width: 480px){
+    .content-wrapper.tfi-content-wrapper{
+        margin-top: 0  !important;
+        padding-top: 13px;
+    }
+
+    .tfi .col-md-12{
+        margin-top: 0;
+    }
+
+    .resourses_form form#search-form{
+        padding: 0 2%;
+    }
+}
+/* Utkarsh saxena ended */

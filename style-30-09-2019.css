@@ -1,0 +1,1178 @@
+                /* font classes */
+                /* font (source sans pro) and font sizes */
+                
+                .word-trimmer {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+                
+                .fs9 {
+                    font-size: 9px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .fs15 {
+                    font-size: 15px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .fs16 {
+                    font-size: 16px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .fs13 {
+                    font-size: 13px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .fs12 {
+                    font-size: 12px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .fs18 {
+                    font-size: 18px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .fs19 {
+                    font-size: 19px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .fs20 {
+                    font-size: 19px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .fs25 {
+                    font-size: 25px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                /* font weight */
+                
+                .fwsb {
+                    font-weight: 600 !important;
+                }
+                
+                .fwb {
+                    font-weight: 900 !important;
+                }
+                
+                .fwn {
+                    font-weight: 400 !important;
+                }
+                
+                .fwl {
+                    font-weight: 300 !important;
+                }
+                /* font color */
+                
+                .fcolor {
+                    color: #ababab;
+                }
+                
+                .comingsoon {
+                    text-align: center;
+                    vertical-align: middle;
+                    line-height: 10 !important;
+                }
+                
+                .hoverEffect:hover {
+                    background-color: #f7f7f7
+                }
+                
+                body {
+                    color: #564c4c !important;
+                }
+                
+                .overflow-ellipsis {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    line-height: 1.52em;
+                    max-height: 3em;
+                }
+                
+                .mxwebinar img {
+                    max-height: 100%;
+                    max-width: 100%;
+                    width: auto;
+                    height: auto;
+                    position: relative;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                }
+                
+                .preserveSpace {
+                    white-space: pre-line;
+                    line-height: 20px;
+                }
+                
+                .mxwebinar .navbar {
+                    width: 100%!important;
+                    height: 68px;
+                    background-color: #f3f5e4;
+                    position: fixed;
+                    z-index: 9999999999;
+                    top: 0;
+                }
+                
+                .mxwebinar .footer {
+                    width: 100%!important;
+                    height: 68px;
+                    background-color: #000;
+                    position: fixed;
+                    z-index: 9999999999;
+                    bottom: 0;
+                }
+                
+                .mxwebinar .has-search .form-control {
+                    padding-left: 2.375rem;
+                }
+                
+                .mxwebinar .has-search .form-control-feedback {
+                    position: absolute;
+                    z-index: 2;
+                    display: block;
+                    line-height: 2.375rem;
+                    text-align: center;
+                    pointer-events: none;
+                    color: #f5f5f5;
+                    font-size: 20px;
+                }
+                
+                .mxwebinar *,
+                *:before,
+                *:after {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                .mxwebinar .tabsRow label {
+                    display: inline-block;
+                    margin: 0 0 0px;
+                    padding: 11px 15px;
+                    font-weight: normal;
+                    text-align: center;
+                    color: #696161;
+                    border-bottom: 1px solid #f5f5f5;
+                    font-size: 17px;
+                    font-style: normal;
+                }
+                
+                .mxwebinar label:hover {
+                    color: #888;
+                    cursor: pointer;
+                }
+                
+                .mxwebinar section {
+                    display: none;
+                    padding: 20px 0 0;
+                    border-top: 1px solid #f5f5f5;
+                }
+                
+                .mxwebinar input {
+                    display: none;
+                }
+                
+                .mxwebinar input:checked+label {
+                    color: #000;
+                    border: 1px solid #ddd;
+                    border-top: 2px solid #fff;
+                    border-bottom: 4px solid #f15d4f;
+                    font-weight: 700;
+                    border-right: none;
+                    border-left: none;
+                    font-size: 17px;
+                    font-weight: 600 !important;
+                    font-size: 20px !important;
+                    font-family: 'Source Sans Pro', sans-serif !important;
+                }
+                
+                .mxwebinar #tab1:checked~#content1,
+                .mxwebinar #tab2:checked~#content2,
+                .mxwebinar #tab3:checked~#content3,
+                .mxwebinar #tab4:checked~#content4,
+                .mxwebinar #tab5:checked~#content5 {
+                    display: block;
+                }
+                
+                .mxwebinar .margnTop2pr {
+                    margin-top: 2%;
+                }
+                
+                .mxwebinar .searchInput {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #f5f5f5;
+                    border-radius: unset;
+                    background-color: transparent;
+                    font-size: 20px;
+                }
+                
+                div#overview {
+                    font-size: medium;
+                    margin-top: 15px;
+                    margin-right: 6px;
+                }
+                
+                .mxwebinar .mainHeading {
+                    font-size: 20px;
+                    text-align: left;
+                    float: left;
+                    width: 100%;
+                    margin-bottom: 0px;
+                    margin-top: 0px;
+                }
+                /* .mxwebinar .fs25{font-size: 25px !important;font-family: 'Source Sans Pro', sans-serif !important;} */
+                
+                .mxwebinar .smallFont {
+                    font-size: 15px;
+                    float: left;
+                    width: 100%;
+                }
+                
+                .forbgcol {
+                    background-color: #fff
+                }
+                
+                .mx-xs-clear .nav-tabs>li.active>a:hover {
+                    border: none;
+                    border-color: transparent;
+                    border-bottom: 2px solid #ef5c4e;
+                    background-color: transparent;
+                }
+                
+                .mx-xs-clear .nav-tabs>li.active>a {
+                    border: none;
+                    border-bottom: 2px solid #ef5c4e;
+                }
+                
+                .mx-xs-clear .nav-tabs>li>a {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                
+                .mx-xs-clear .nav-tabs>li {
+                    margin: 0 10px;
+                }
+                
+                .webinar_share_bm {
+                    float: right;
+                    margin-left: 10px;
+                }
+                
+                .mxwebinar .tabsRow {
+                    /* min-width: 320px;
+max-width: 800px;
+padding: 10px 0px;*/
+                    margin: 0 auto;
+                    background: #fff;
+                    border: 1px solid #f5f5f5;
+                    /* margin-top: 18px; */
+                }
+                
+                .mxwebinar .contentTabs {
+                    padding: 2% 3%;
+                    height: 250px;
+                    overflow-y: auto;
+                    line-height: 17px;
+                }
+                
+                .mxwebinar .borderfull {
+                    border: 1px solid #f5f5f5;
+                }
+                
+                .mxwebinar .headingTwo {
+                    font-size: 20px;
+                    border-bottom: 1px solid #f5f5f5;
+                    width: 100%;
+                    padding: 2% 5%;
+                }
+                
+                .mxwebinar .cardDiv {
+                    padding: 2% 5%;
+                }
+                
+                .mxwebinar .card-text {
+                    font-size: 12px;
+                    font-weight: bold;
+                    line-height: 20px;
+                }
+                
+                .mxwebinar .cardMainHed {
+                    width: 100%;
+                    border-radius: unset;
+                    background-color: #000;
+                    color: #fff;
+                    padding: 1% 0;
+                }
+                
+                .mxwebinar .cardMainHed1 {
+                    width: 100%;
+                    border-radius: unset;
+                    background-color: transparent;
+                    color: #000;
+                    padding: 1% 0;
+                    border: 1px solid #f5f5f5;
+                }
+                
+                .mxwebinar .cardMainHed-text {
+                    font-size: 20px !important;
+                    padding: 10px 15px 0;
+                }
+                
+                .mxwebinar .cardMainHed-text strong {
+                    font-weight: normal;
+                }
+                
+                .mxwebinar .cardMainHed-text1 {
+                    font-size: 15px;
+                    padding: 3% 0 0% 5%;
+                }
+                
+                .mxwebinar input[type=text],
+                select {
+                    width: 100%;
+                    padding: 7px 12px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    padding-right: 30px;
+                }
+                
+                .mxwebinar .searchIcon {
+                    position: absolute;
+                    right: 20px;
+                    top: 13px;
+                    font-size: 20px;
+                    color: #000;
+                }
+                
+                .mxwebinar a {
+                    color: #000;
+                    text-decoration: none;
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                }
+                
+                .mxwebinar a:link {
+                    color: #000;
+                    outline: none;
+                    border: none;
+                }
+                
+                .mxwebinar a:visited {
+                    color: #000;
+                    outline: none;
+                    border: none;
+                }
+                
+                .mxwebinar a:hover {
+                    color: #000;
+                    outline: none;
+                    border: none;
+                }
+                
+                .mx-xs-clear .nav-tabs>li.active>a:focus {
+                    border: none;
+                    border-color: transparent;
+                    border-bottom: 2px solid #ef5c4e;
+                    background-color: transparent;
+                }
+                
+                .mxwebinar a:hover,
+                a:visited,
+                a:link,
+                a:active {
+                    text-decoration: none;
+                }
+                
+                .mxwebinar .card {
+                    position: relative;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                    min-width: 0;
+                    word-wrap: break-word;
+                    background-color: #fff;
+                    background-clip: border-box;
+                    /* border: 1px solid rgba(0, 0, 0, .125); */
+                    /* border-radius: .25rem; */
+                    border-radius: unset;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    /* width: 250px; */
+                    /* max-width: 300px; */
+                }
+                
+                .mxwebinar .card-body {
+                    -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+                    padding: 1rem;
+                    padding-left: .75rem;
+                }
+                
+                .mxwebinar .card-img-top {
+                    /* width: 100%; */
+                    border-top-left-radius: calc(.25rem - 1px);
+                    border-top-right-radius: calc(.25rem - 1px);
+                    max-height: 92px;
+                }
+                
+                .mxwebinar .rc a {
+                    color: red !important;
+                }
+                
+                .mxwebinar .rw a {
+                    color: red !important;
+                }
+                
+                .mxwebinar .rscard {
+                    max-height: 290px;
+                    height: 290px;
+                }
+                
+                .mxwebinar .rscard .card-img-top {
+                    max-height: 150px;
+                }
+                
+                .mxwebinar .subheading {
+                    float: left;
+                    padding-bottom: 27px;
+                    font-size: 18px;
+                    line-height: 0;
+                }
+                
+                .mxwebinar .rscard .date-text {
+                    /* position:absolute; */
+                    bottom: 12px;
+                    color: #555;
+                }
+                
+                .mxwebinar .rscard .title-text {
+                    font-size: 15px;
+                    font-weight: 550;
+                }
+                
+                .mxwebinar .rscard .card-body {
+                    -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+                    padding: 1rem;
+                    padding-left: .75rem;
+                }
+                
+                .mxwebinar .related-item {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    margin-top: 0 !important;
+                    padding-top: 15px;
+                }
+                
+                .mxwebinar .related-item-icon {
+                    padding-left: 0px;
+                    padding-bottom: 10px;
+                    padding-right: 8px;
+                }
+                
+                .mxwebinar .related-item-content {
+                    padding-left: 0px;
+                }
+                
+                .mxwebinar .related-item-content .title-text {
+                    font-size: 13px !important;
+                    margin-bottom: 5px;
+                    height: 42px;
+                    margin: 0px;
+                }
+                
+                .mxwebinar .related-item-content .author-text {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+                
+                .mxwebinar .related-item-content .author-text .with {
+                    color: #555;
+                    font-weight: normal;
+                }
+                
+                .mxwebinar .related-item-content .date-text {
+                    font-size: 9px;
+                    color: #555;
+                }
+                
+                .mxwebinar .related-item-content .date-text a,
+                .related-item-content .date-text a:visited {
+                    color: #555;
+                }
+                
+                .mxwebinar .related-item-empty {
+                    margin-top: 100px;
+                    text-align: center;
+                }
+                
+                .mxwebinar .text-danger {
+                    color: red;
+                }
+                
+                .mxwebinar .showmore {
+                    margin-bottom: 0px;
+                    margin-top: 0px;
+                    border: 1px solid #f5f5f5;
+                    border-radius: 10px;
+                    padding: 11px;
+                    color: #656565;
+                    background: none;
+                    box-shadow: none;
+                }
+                
+                .mxwebinar input[type="submit"]:hover:not(:disabled),
+                .mxwebinar input[type="button"]:hover:not(:disabled),
+                .mxwebinar button:hover:not(:disabled),
+                .mxwebinar .button:hover:not(:disabled) {
+                    background: none;
+                }
+                
+                #discussion #post_discussions {
+                    max-height: 200px;
+                    overflow-y: auto;
+                }
+                
+                #discussion .card {}
+                
+                #discussion .cardMainHed-text {
+                    padding: 3px 0px 0px 4px;
+                    color: #555;
+                    font-size: 14px;
+                }
+                
+                .discussionmore-div {
+                    text-align: right;
+                }
+                
+                .discussionmore-div #discussionmore {
+                    border: none;
+                    border-radius: 7px;
+                    padding: 0px 4px 4px 4px;
+                    color: #555;
+                    box-shadow: none;
+                    background: #f9f9f9;
+                    font-size: 13px;
+                }
+                
+                #discussion .card p {
+                    color: #5d5757;
+                    font-size: 14px;
+                }
+                
+                #discussion .post-userdiv {
+                    padding: 6px 0 0 4px;
+                    margin: 0px;
+                    font-weight: normal;
+                    font-size: 14px;
+                    color: red;
+                    float: Left;
+                }
+                
+                #discussion .post-userdiv .fa-user {
+                    color: #888686;
+                }
+                
+                #discussion .post-textdiv {
+                    float: left;
+                }
+                
+                #discussion .post-textdiv span {
+                    float: left;
+                    padding: 7px 0 0 5px;
+                }
+                
+                #discussion .post-likediv {
+                    width: 80px !important;
+                    height: 100%;
+                    height: 80px !important;
+                    padding-left: 4px;
+                    height: 80px !important;
+                    color: #888686;
+                    height: 80px !important;
+                    border-bottom: 1px solid #f3f0f0;
+                    float: left;
+                    padding-top: 19px;
+                    margin-left: -201px;
+                }
+                /* #discussion .post-likediv {widthheight: 80px !important;: 100%;
+float: left;
+height: 80px !important;
+padding-left: 4px;height: 80px !important;
+color: #888686;height: 80px !important;
+border-bottom: 1px solid #f3f0f0;}height: 80px !important; */
+                
+                #discussion .post-likediv span {
+                    padheight: 80px !important;
+                    ding-left: 6px;
+                    color: #555;
+                    font-size: 12px;
+                }
+                
+                #discussion #cmntbox>div>div {
+                    paddheight: 80px !important;
+                    ing: 0px;
+                }
+                
+                #discussion #cmntbox button {
+                    height: 34px !important;
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    border-left: 1px solid #eceaea;
+                    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+                    border-radius: 0px 5px 5px 0px;
+                }
+                
+                #discussion #cmntbox textarea {
+                    margin: 0px 0px 0px;
+                    width: 104%;
+                }
+                
+                .upcomingweb {
+                    min-width: 320px;
+                    max-width: 800px;
+                    padding: 10px 0px;
+                    margin: 0 auto;
+                    background: #fff;
+                    border: 1px solid #f5f5f5;
+                }
+                /* .tabsRow.headingupcoming{
+font-size: 20px !important;
+border-bottom: 1px solid #f5f5fheight: 80px !important; !important;
+width: 100% !important;
+padding: 2% 5% !important;
+} */
+                
+                .mxwebinar .video-responsive {
+                    /* overflow:hidden; */
+                    padding-bottom: 56.25%;
+                    position: relative;
+                    height: 0;
+                    width: 100%;
+                    float: left;
+                }
+                
+                .mxwebinar .video-responsive iframe {
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 410px;
+                    position: absolute;
+                }
+                
+                .cmntarea {
+                    padding: 0 0 0 0px !important;
+                }
+                
+                .cmntboxarea {
+                    padding: 0 0 0 0px !important;
+                }
+                /* ========================upcoming webinars========================= */
+                
+                .mxwebinar .xyz:hover .card-img-top {
+                    opacity: 0.3;
+                }
+                
+                .mxwebinar .xyz:hover .middle {
+                    opacity: 1;
+                }
+                
+                .mxwebinar .middle {
+                    transition: .5s ease;
+                    opacity: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+                
+                .mxwebinar .textHhyer {
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                
+                .mxwebinar .upcoming-webinar .icon {
+                    background-color: #252424;
+                    position: relative;
+                }
+                
+                .modal {
+                    width: 100%;
+                }
+                
+                .modal-content {
+                    width: 100%;
+                }
+                
+                .iconimage {
+                    padding: 0px !important;
+                }
+                
+                .mxwebinar .xyz {
+                    position: relative;
+                    /* height: auto !important; */
+                    max-height: 290px;
+                    height: 290px;
+                }
+                
+                .imageupcomingdimentions {
+                    max-height: 150px !important;
+                }
+                
+                .mxwebinar .card-text2 {
+                    font-weight: bold;
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-top: 2px;
+                    text-align: left;
+                }
+                
+                .mxwebinar .card-text3 {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+                
+                .mxwebinar .card-text4 {
+                    font-size: 13px;
+                    margin-top: 10px;
+                    font-weight: 550;
+                }
+                
+                .mxwebinar .card-text5 {
+                    font-size: 12px;
+                    font-weight: 550;
+                    margin-bottom: 5px;
+                }
+                
+                .mxwebinar .upcoming-webinar {
+                    position: relative;
+                    cursor: pointer;
+                    border: 1px solid #ccc;
+                    border-radius: 3px;
+                }
+                
+                .mxwebinar .upcoming-webinar .icon-main {
+                    padding: 0px;
+                }
+                
+                .mxwebinar .upcoming-webinar .icon {
+                    background-color: #252424;
+                    position: relative;
+                    height: 150px;
+                    background-size: cover;
+                    overflow: hidden;
+                }
+                
+                .mxwebinar .upcoming-webinar>div {}
+                
+                .mxwebinar .upcoming-webinar-date {
+                    position: absolute;
+                    /* bottom:12px; */
+                    font-weight: bold;
+                    top: 110px;
+                }
+                
+                .uwauthors {
+                    color: red;
+                }
+                /* ========================upcoming webinars end========================= */
+                
+                .mxwebinar .mx-xs-clear {
+                    padding-right: 0px !important;
+                    /* min-height: 200px; */
+                    /* margin-bottom: 15px; */
+                }
+                /* ============================== media Query=================================== */
+                
+                @media screen and (max-width: 767px) {
+                    .mxwebinar .mx-xs-clear {
+                        padding: 0px !important;
+                        margin: 0px !important;
+                    }
+                    .mxwebinar .mx-xs-strip {
+                        background-color: #F7F6F6;
+                        height: 15px;
+                    }
+                    .removeConnt {
+                        min-width: auto;
+                        width: auto;
+                        max-width: auto;
+                        padding-left: 0 !important;
+                    }
+                    /* .mxwebinar .rscard .date-text {
+position: absolute;
+bottom: -55px;
+color: #555;
+} */
+                    .mxwebinar .cardMainHed-text {
+                        font-size: 20px;
+                        padding: 3% 0 0% 0%;
+                        font-weight: 500;
+                        background-color: white;
+                        color: black;
+                        text-decoration: underline #04B3CA;
+                        text-transform: uppercase;
+                    }
+                    .mxwebinar .headingTwo {
+                        font-weight: 500;
+                        font-size: 20px;
+                        border-bottom: none;
+                        width: 100%;
+                        padding: 2% 2%;
+                        color: black;
+                        text-decoration: underline #04B3CA;
+                        text-transform: uppercase;
+                        margin-left: 9px;
+                    }
+                    .discussiondatetime {
+                        clear: both !important;
+                    }
+                    .discussionmore {
+                        float: left !important;
+                        margin-left: 19px !important;
+                        clear: both !important;
+                    }
+                    .cardMainHed-text1 {
+                        margin-left: -13px !important;
+                    }
+                    .iframe {
+                        margin: 0px -40px 0px -40px;
+                        width: -webkit-fill-available;
+                    }
+                    .mxwebinar .tabsRow {
+                        margin-top: 0px;
+                    }
+                    .showmore {
+                        margin: 0px 0px 0px 208px !important;
+                    }
+                    .mxwebinar .showmore {
+                        margin-bottom: 10px !important;
+                        margin-top: 10px !important;
+                        margin-left: 116px !important;
+                    }
+                    .mxwebinar .mobrscard {
+                        height: 86px;
+                        border-top: none !important;
+                        border-left: none !important;
+                        border-right: none !important;
+                        border-bottom: 1px solid #ccc !important;
+                        margin-bottom: 11px;
+                    }
+                    .mobimage {
+                        width: 100% !important;
+                        height: 90px !important;
+                    }
+                    .mxwebinar .card-text3 {
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin-top: -15px;
+                    }
+                    .icon {
+                        margin-top: 8px;
+                        height: 80px !important;
+                    }
+                    .upcoming-webinar-date {
+                        position: absolute;
+                        bottom: -46px;
+                        font-size: 17px;
+                        font-weight: 300;
+                        color: #656565;
+                        line-height: 1.6;
+                        margin-top: 0;
+                        top: 64px !important;
+                        margin-bottom: 1rem;
+                    }
+                    /* .card-text5{
+padding-top: 22px !important ;
+} */
+                    .mxwebinar .rscard .card-img-top {
+                        width: 100%;
+                        max-height: 90px;
+                    }
+                    .mxwebinar .rscard .title-text {
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin-top: -15px;
+                        color: #484545;
+                    }
+                    .mxwebinar .rscard .date-text {
+                        top: 50px !important;
+                        /* position: absolute; */
+                        bottom: -8px;
+                        color: #555;
+                        /* font-size: 10px; */
+                        position: absolute;
+                        bottom: -3px;
+                        font-size: 10px;
+                        font-weight: bold;
+                    }
+                    /* .sidebars{
+paddingposition: absolute;
+bottom: -46px;
+font-size: 17px;
+font-weight: 300;
+color: #656565;
+line-height: 1.6;
+margin-top: 0;
+top: 64px !important;
+margin-bottom: 1rem;left: 0p238px;x !important;
+margin-position: absolute;
+bottom: -46px;
+font-size: 17px;
+font-weight: 300;
+color: #656565;
+line-height: 1.6;
+margin-top: 0;
+top: 64px !important;
+margin-bottom: 1rem;eft: -10px !important;
+} */
+                    .rcheadinposition: absolute;
+                    bottom: -46px;
+                    font-size: 17px;
+                    font-weight: 300;
+                    color: #656565;
+                    line-height: 1.6;
+                    margin-top: 0;
+                    top: 64px !important;
+                    margin-bottom: 1rem;
+                    {
+                        border: position: absolute;
+                        bottom: -46px;
+                        font-size: 17px;
+                        font-weight: 300;
+                        color: #656565;
+                        line-height: 1.6;
+                        margin-top: 0;
+                        top: 64px !important;
+                        margin-bottom: 1rem;
+                        none !important;
+                    }
+                    .rctitle {
+                        font-weight: 500 !important;
+                        margin-left: 13px !important;
+                        font-size: 18px !important;
+                    }
+                    .mxwebinar .related-item-icon {
+                        padding-left: 0px !important;
+                        padding: 0 !important;
+                        padding-bottom: 10px !important;
+                    }
+                    .iconimage {
+                        padding-left: 0 !important;
+                    }
+                    .mxwebinar .upcoming-webinar {
+                        position: relative;
+                        cursor: pointer;
+                        border: 1px solid #ccc;
+                        border-radius: 3px;
+                        border-top: none !important;
+                        border-left: none !important;
+                        border-right: none !important;
+                        border-bottom: 1px solid #ccc !important;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                    }
+                    .rcdate-text {
+                        margin-left: 13px !important;
+                        position: absolute;
+                        bottom: -46px;
+                        font-size: 10px !important;
+                        ffont-weight: bold !important;
+                        color: #656565 !important;
+                        line-height: 1.6 !important;
+                        top: 61px;
+                    }
+                    .sidebarscard {
+                        border: none !important;
+                    }
+                    .mxwebinar .video-responsive iframe {
+                        width: 100%;
+                        height: 100%;
+                        left: 39px;
+                    }
+                    .mxwebinar .card {
+                        border: none;
+                    }
+                    .mxwebinar .card-img-top {
+                        height: 80px !important;
+                    }
+                    #discussion #cmntbox textarea {
+                        margin: 0px -8px 0px;
+                    }
+                    #discussion #cmntbox button {
+                        height: 40px !important;
+                        margin-top: 7px !important;
+                        width: 104%;
+                        margin-left: -9px;
+                    }
+                    .g-padding-y-30--xs {
+                        display: none;
+                    }
+                    /* .tfi .navbar-fixed-top {
+                        display: none;
+                    } */
+                    .tfi .row {
+                        margin-top: -14px;
+                    }
+                    .mxwebinar .xyz {
+                        height: auto !important;
+                    }
+                    .mxwebinar .mainHeading {
+                        padding-left: 15px;
+                    }
+                    .mxwebinar .subheading {
+                        padding-left: 15px;
+                    }
+                    .nrc {
+                        padding-top: 83px;
+                    }
+                    .nrw {
+                        padding-top: 83px;
+                    }
+                    #discussion .post-likediv {
+                        padding-top: 19px;
+                        margin-left: -201px;
+                    }
+                    /* ============================== media Query end =====================*/
+                    /*  for related videos */
+                    .glyphicon {
+                        font-size: 60px;
+                        opacity: 0.6;
+                        position: absolute;
+                        right: 39%;
+                        top: 31%;
+                        text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+                        transition: all 500ms ease-in-out;
+                    }
+                    * {
+                        box-sizing: border-box;
+                    }
+                    body {
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    /* Float four columns side by side */
+                    .column {
+                        float: left;
+                        width: 25%;
+                        padding: 0 10px;
+                    }
+                    /* Remove extra left and right margins, due to padding */
+                    /* .row {margin: 0 -5px;} */
+                    /* Clear floats after the c inline-blockolumns */
+                    .row:after {
+                        content: "";
+                        display: table;
+                        clear: both;
+                    }
+                    /* Responsive columns */
+                    @media screen and (max-width: 600px) {
+                        .column {
+                            width: 100%;
+                            display: block;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    /* Style the counter cards */
+                    .vid-card {
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                        padding: 10px;
+                        text-align: center;
+                        background-color: #f1f1f1;
+                    }
+                    .mar-bot {
+                        margin-bottom: 10px
+                    }
+                }
+                /* utkarsh  saxena started. */
+                
+                a,
+                button {
+                    cursor: pointer !important;
+                }
+                
+                #rel-video a.vid-card {
+                    display: block;
+                    padding: 10px 15px;
+                }
+                
+                .mxwebinar .related-item:not(:last-child) {
+                    border-bottom: 1px solid rgba(0, 0, 0, .125);
+                }
+                
+                .tfi ul.nav.nav-tabs {
+                    padding: 0 15px;
+                }
+                
+                .card.sidebarscard #webinarelted p.card-text.title-text span {
+                    font-size: inherit !important;
+                    color: inherit !important;
+                }
+                
+                .mxwebinar .borderfull::-webkit-scrollbar-thumb,
+                #webinarelted::-webkit-scrollbar-thumb {
+                    background: #ccc;
+                }
+                
+                .mxwebinar .borderfull::-webkit-scrollbar,
+                #webinarelted::-webkit-scrollbar {
+                    width: 5px;
+                }
+                
+                @media screen and (max-width: 768px) {
+                    span.fwn+div a.tbl-btn.course_bookmark.normal_bm,
+                    span.fwn+div a.tbl-btn.course_share {
+                        display: none !important;
+                    }
+                    .mxwebinar .video-responsive {
+                        margin-bottom: 0 !important;
+                    }
+                    .mxwebinar .headingTwo {
+                        margin-left: 0;
+                    }
+                    .mxwebinar .mainHeading {
+                        padding: 40px 15px 0;
+                        line-height: 1;
+                    }
+                    span.fwn.fs15 {
+                        padding: 0 15px;
+                    }
+                    .tab-content {
+                        margin: 0 !important;
+                        padding: 0 15px;
+                    }
+                    .tab-content .tab-pane {
+                        margin-left: 0;
+                        margin-right: 0 !important;
+                        padding-bottom: 15px;
+                    }
+
+                    .mxwebinar .mx-xs-clear{
+                        padding-right: 15px !important;
+                    }
+                }
+                /* utkarsh saxena ended. */
