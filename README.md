@@ -6,6 +6,6 @@ git add README.md
 
 git commit -m "first commit"
 
-git remote add origin https://github.com/utkarsh-enthuons/testing.git
+git remote add origin https://github.com/utkarsh-enthuons/firki.git
 
 git push -u origin master
