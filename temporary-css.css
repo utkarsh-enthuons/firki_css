@@ -1303,6 +1303,7 @@ ol.breadcrumb {
 
 .card .rating span {
   color: #ffad12;
+  font-size: 12px;
 }
 
 .card .rating span.blank {
@@ -1395,4 +1396,25 @@ ol.breadcrumb {
     height: 107px;
     width: 100%;
     object-fit: cover;
+}
+
+.other_changes p.notiCon {
+    margin-bottom: 5px;
+}
+
+.other_changes button.slick-arrow i {
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.float-right{
+    float: right;
+}
+
+.other_changes .rating:after{
+    content: "";
+    display: block;
+    clear: both;
 }
